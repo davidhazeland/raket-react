@@ -1,0 +1,23 @@
+{
+  "name": "raket-react",
+  "version": "0.0.0",
+  "description": "Raket React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ironnext/raket-react.git"
+  },
+  "keywords": [
+    "raket",
+    "react"
+  ],
+  "author": "David Hazeland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ironnext/raket-react/issues"
+  },
+  "homepage": "https://github.com/ironnext/raket-react#readme"
+}
