@@ -7,10 +7,10 @@ exports.stopRequest = exports.startRequest = exports.set = exports.clear = expor
 
 var _reduxActions = require('redux-actions');
 
-var CLEAR = exports.CLEAR = 'ironlake/initial/CLEAR';
-var SET = exports.SET = 'ironlake/initial/SET';
-var START_REQUEST = exports.START_REQUEST = 'ironlake/initial/START_REQUEST';
-var STOP_REQUEST = exports.STOP_REQUEST = 'ironlake/initial/STOP_REQUEST';
+var CLEAR = exports.CLEAR = 'raket-react/initial/CLEAR';
+var SET = exports.SET = 'raket-react/initial/SET';
+var START_REQUEST = exports.START_REQUEST = 'raket-react/initial/START_REQUEST';
+var STOP_REQUEST = exports.STOP_REQUEST = 'raket-react/initial/STOP_REQUEST';
 
 var clear = exports.clear = (0, _reduxActions.createAction)(CLEAR);
 var set = exports.set = (0, _reduxActions.createAction)(SET);

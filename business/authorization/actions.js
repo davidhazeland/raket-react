@@ -7,12 +7,12 @@ exports.meReady = exports.me = exports.set = exports.restore = exports.save = ex
 
 var _reduxActions = require('redux-actions');
 
-var CLEAR = exports.CLEAR = 'ironlake/authorization/CLEAR';
-var SAVE = exports.SAVE = 'ironlake/authorization/SAVE';
-var RESTORE = exports.RESTORE = 'ironlake/authorization/RESTORE';
-var SET = exports.SET = 'ironlake/authorization/SET';
-var ME = exports.ME = 'ironlake/authorization/ME';
-var ME_READY = exports.ME_READY = 'ironlake/authorization/ME_READY';
+var CLEAR = exports.CLEAR = 'raket-react/authorization/CLEAR';
+var SAVE = exports.SAVE = 'raket-react/authorization/SAVE';
+var RESTORE = exports.RESTORE = 'raket-react/authorization/RESTORE';
+var SET = exports.SET = 'raket-react/authorization/SET';
+var ME = exports.ME = 'raket-react/authorization/ME';
+var ME_READY = exports.ME_READY = 'raket-react/authorization/ME_READY';
 
 var clear = exports.clear = (0, _reduxActions.createAction)(CLEAR);
 var save = exports.save = (0, _reduxActions.createAction)(SAVE);

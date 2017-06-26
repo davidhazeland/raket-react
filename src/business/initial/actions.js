@@ -1,9 +1,9 @@
 import {createAction} from 'redux-actions'
 
-export const CLEAR = 'ironlake/initial/CLEAR'
-export const SET = 'ironlake/initial/SET'
-export const START_REQUEST = 'ironlake/initial/START_REQUEST'
-export const STOP_REQUEST = 'ironlake/initial/STOP_REQUEST'
+export const CLEAR = 'raket-react/initial/CLEAR'
+export const SET = 'raket-react/initial/SET'
+export const START_REQUEST = 'raket-react/initial/START_REQUEST'
+export const STOP_REQUEST = 'raket-react/initial/STOP_REQUEST'
 
 export const clear = createAction(CLEAR)
 export const set = createAction(SET)

@@ -7,16 +7,16 @@ exports.updateFailure = exports.updateSuccess = exports.updateRequest = exports.
 
 var _reduxActions = require('redux-actions');
 
-var CLEAR = exports.CLEAR = 'ironlake/item/CLEAR';
-var SET = exports.SET = 'ironlake/item/SET';
+var CLEAR = exports.CLEAR = 'raket-react/item/CLEAR';
+var SET = exports.SET = 'raket-react/item/SET';
 
-var CREATE_REQUEST = exports.CREATE_REQUEST = 'ironlake/item/CREATE_REQUEST';
-var CREATE_SUCCESS = exports.CREATE_SUCCESS = 'ironlake/item/CREATE_SUCCESS';
-var CREATE_FAILURE = exports.CREATE_FAILURE = 'ironlake/item/CREATE_FAILURE';
+var CREATE_REQUEST = exports.CREATE_REQUEST = 'raket-react/item/CREATE_REQUEST';
+var CREATE_SUCCESS = exports.CREATE_SUCCESS = 'raket-react/item/CREATE_SUCCESS';
+var CREATE_FAILURE = exports.CREATE_FAILURE = 'raket-react/item/CREATE_FAILURE';
 
-var UPDATE_REQUEST = exports.UPDATE_REQUEST = 'ironlake/item/UPDATE_REQUEST';
-var UPDATE_SUCCESS = exports.UPDATE_SUCCESS = 'ironlake/item/UPDATE_SUCCESS';
-var UPDATE_FAILURE = exports.UPDATE_FAILURE = 'ironlake/item/UPDATE_FAILURE';
+var UPDATE_REQUEST = exports.UPDATE_REQUEST = 'raket-react/item/UPDATE_REQUEST';
+var UPDATE_SUCCESS = exports.UPDATE_SUCCESS = 'raket-react/item/UPDATE_SUCCESS';
+var UPDATE_FAILURE = exports.UPDATE_FAILURE = 'raket-react/item/UPDATE_FAILURE';
 
 var clear = exports.clear = (0, _reduxActions.createAction)(CLEAR);
 var set = exports.set = (0, _reduxActions.createAction)(SET);

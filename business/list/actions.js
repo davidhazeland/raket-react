@@ -7,22 +7,22 @@ exports.changeStatusFailure = exports.changeStatusSuccess = exports.changeStatus
 
 var _reduxActions = require('redux-actions');
 
-var CLEAR = exports.CLEAR = 'ironlake/list/CLEAR';
+var CLEAR = exports.CLEAR = 'raket-react/list/CLEAR';
 
-var FETCH_REQUEST = exports.FETCH_REQUEST = 'ironlake/list/FETCH_REQUEST';
-var FETCH_SUCCESS = exports.FETCH_SUCCESS = 'ironlake/list/FETCH_SUCCESS';
-var FETCH_FAILURE = exports.FETCH_FAILURE = 'ironlake/list/FETCH_FAILURE';
+var FETCH_REQUEST = exports.FETCH_REQUEST = 'raket-react/list/FETCH_REQUEST';
+var FETCH_SUCCESS = exports.FETCH_SUCCESS = 'raket-react/list/FETCH_SUCCESS';
+var FETCH_FAILURE = exports.FETCH_FAILURE = 'raket-react/list/FETCH_FAILURE';
 
-var CHANGE_PAGE = exports.CHANGE_PAGE = 'ironlake/list/CHANGE_PAGE';
-var SEARCH = exports.SEARCH = 'ironlake/list/SEARCH';
+var CHANGE_PAGE = exports.CHANGE_PAGE = 'raket-react/list/CHANGE_PAGE';
+var SEARCH = exports.SEARCH = 'raket-react/list/SEARCH';
 
-var DELETE_REQUEST = exports.DELETE_REQUEST = 'ironlake/list/DELETE_REQUEST';
-var DELETE_SUCCESS = exports.DELETE_SUCCESS = 'ironlake/list/DELETE_SUCCESS';
-var DELETE_FAILURE = exports.DELETE_FAILURE = 'ironlake/list/DELETE_FAILURE';
+var DELETE_REQUEST = exports.DELETE_REQUEST = 'raket-react/list/DELETE_REQUEST';
+var DELETE_SUCCESS = exports.DELETE_SUCCESS = 'raket-react/list/DELETE_SUCCESS';
+var DELETE_FAILURE = exports.DELETE_FAILURE = 'raket-react/list/DELETE_FAILURE';
 
-var CHANGE_STATUS_REQUEST = exports.CHANGE_STATUS_REQUEST = 'ironlake/list/CHANGE_STATUS_REQUEST';
-var CHANGE_STATUS_SUCCESS = exports.CHANGE_STATUS_SUCCESS = 'ironlake/list/CHANGE_STATUS_SUCCESS';
-var CHANGE_STATUS_FAILURE = exports.CHANGE_STATUS_FAILURE = 'ironlake/list/CHANGE_STATUS_FAILURE';
+var CHANGE_STATUS_REQUEST = exports.CHANGE_STATUS_REQUEST = 'raket-react/list/CHANGE_STATUS_REQUEST';
+var CHANGE_STATUS_SUCCESS = exports.CHANGE_STATUS_SUCCESS = 'raket-react/list/CHANGE_STATUS_SUCCESS';
+var CHANGE_STATUS_FAILURE = exports.CHANGE_STATUS_FAILURE = 'raket-react/list/CHANGE_STATUS_FAILURE';
 
 var clear = exports.clear = (0, _reduxActions.createAction)(CLEAR);
 var fetchRequest = exports.fetchRequest = (0, _reduxActions.createAction)(FETCH_REQUEST);

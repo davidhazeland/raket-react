@@ -1,11 +1,11 @@
 import {createAction} from 'redux-actions'
 
-export const CLEAR = 'ironlake/authorization/CLEAR'
-export const SAVE = 'ironlake/authorization/SAVE'
-export const RESTORE = 'ironlake/authorization/RESTORE'
-export const SET = 'ironlake/authorization/SET'
-export const ME = 'ironlake/authorization/ME'
-export const ME_READY = 'ironlake/authorization/ME_READY'
+export const CLEAR = 'raket-react/authorization/CLEAR'
+export const SAVE = 'raket-react/authorization/SAVE'
+export const RESTORE = 'raket-react/authorization/RESTORE'
+export const SET = 'raket-react/authorization/SET'
+export const ME = 'raket-react/authorization/ME'
+export const ME_READY = 'raket-react/authorization/ME_READY'
 
 export const clear = createAction(CLEAR)
 export const save = createAction(SAVE)
