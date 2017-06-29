@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.selectors = exports.sagas = exports.actions = exports.name = undefined;
+exports.selectors = exports.sagas = exports.actions = exports.reducer = exports.name = undefined;
 
 var _actions = require('./actions');
 
@@ -25,8 +25,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 exports.name = _reducer.name;
+exports.reducer = _reducer2.default;
 exports.actions = actions;
 exports.sagas = _sagas2.default;
 exports.selectors = selectors;
-exports.default = _reducer2.default;
+exports.default = _defineProperty({}, _reducer.name, _reducer2.default);

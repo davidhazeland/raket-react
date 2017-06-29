@@ -5,9 +5,12 @@ import * as selectors from './selectors'
 
 export {
   name,
+  reducer,
   actions,
   sagas,
   selectors
 }
 
-export default reducer
+export default {
+  [name]: reducer
+}

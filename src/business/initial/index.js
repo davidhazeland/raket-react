@@ -5,9 +5,12 @@ import sagas from './sagas'
 
 export {
   name,
+  reducer,
   actions,
   sagas,
   selectors
 }
 
-export default reducer
+export default {
+  [name]: reducer
+}
